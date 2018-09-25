@@ -48,4 +48,15 @@ PRs and issues.
 Install this module individually:
 
 ```sh
-$ npm install @ikendoit/turf-pointGridDensity 
+
+$ npm install turf-pointgriddensity 
+
+```
+
+### Testing: 
+
+```sh
+  npm install --dev jest 
+  npm install babel-preset-env
+  npm test
+```
