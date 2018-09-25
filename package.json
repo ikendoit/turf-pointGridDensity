@@ -29,10 +29,6 @@
     "@turf/distance": "^6.0.1",
     "@turf/helpers": "^6.1.4",
     "@turf/invariant": "^6.1.2",
-    "@turf/transform-rotate": "^5.1.5",
-    "babel-core": "^6.26.3",
-    "babel-jest": "^23.6.0",
-    "babel-preset-env": "^1.7.0",
-    "jest": "^23.6.0"
+    "@turf/transform-rotate": "^5.1.5"
   }
 }
