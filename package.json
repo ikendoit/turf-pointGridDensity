@@ -1,0 +1,38 @@
+{
+  "name": "turf-pointgriddensity",
+  "version": "1.0.0",
+  "description": "Turf point-grid with additional features",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ikendoit/turf-pointGridDensity.git"
+  },
+  "keywords": [
+    "turf",
+    "point-grid",
+    "grid"
+  ],
+  "author": "ikendoit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ikendoit/turf-pointGridDensity/issues"
+  },
+  "homepage": "https://github.com/ikendoit/turf-pointGridDensity#readme",
+  "dependencies": {
+    "@turf/boolean-within": "^6.0.1",
+    "@turf/distance": "^6.0.1",
+    "@turf/helpers": "^6.1.4",
+    "@turf/invariant": "^6.1.2",
+    "@turf/transform-rotate": "^5.1.5",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.6.0",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^23.6.0"
+  }
+}
