@@ -16,6 +16,7 @@ Creates a [Point](https://tools.ietf.org/html/rfc7946#section-3.1.2) grid from a
     -   `options.mask` **[Feature](https://tools.ietf.org/html/rfc7946#section-3.2)&lt;([Polygon](https://tools.ietf.org/html/rfc7946#section-3.1.6) \| [MultiPolygon](https://tools.ietf.org/html/rfc7946#section-3.1.7))>?** if passed a Polygon or MultiPolygon, the grid Points will be created only inside it
     -   `options.properties` **[Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)** passed to each point of the grid (optional, default `{}`)
     -   `options.densities` **[Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)** Object of {latDen, lngDen} indicating width and height between cells (optional, default `{}`)
+    -   `options.rotation` **[Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)** The Decimal Degree Value to rotate the resulting features in counter-clockwise. (optional, default `0`)
 
 **Examples**
 
