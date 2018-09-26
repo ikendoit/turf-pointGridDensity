@@ -65,10 +65,10 @@ $ npm install turf-pointgriddensity
 ### What I changed:
 
 ## Set custom lat-lng spacing between cells. Originally, we passed 1 value for both lat and lng.
-![alt text](https://imgur.com/a/qVwzLgz)
+![Image description](https://imgur.com/a/qVwzLgz)
 
 ## Set rotation, so that we can rotate points.
-![alt text](https://imgur.com/a/P8pEKDp)
+![Image description](https://imgur.com/a/P8pEKDp)
 
 note: the example is passing a polygon mask.
 
