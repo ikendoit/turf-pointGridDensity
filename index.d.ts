@@ -10,7 +10,7 @@ export default function pointGrid<P = Properties>(
         units?: Units,
         properties?: P,
         mask?: Feature<Polygon | MultiPolygon> | Polygon | MultiPolygon,
-        densities?: Object,
+        spacings?: Object,
         rotation?: Number,
     }
 ): FeatureCollection<Point, P>;

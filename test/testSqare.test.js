@@ -1,7 +1,7 @@
 import pointGrid from "../index.js";
 import bbox from "@turf/bbox";
 
-describe("Commons non densiti: ", () => {
+describe("Commons non spacing: ", () => {
   const goodPolygon = {
     type: "Polygon",
     coordinates: [
@@ -42,9 +42,9 @@ describe("Commons non densiti: ", () => {
   it("testing with polygon", () => {
     const pointsInterp = pointGrid(bbox(goodPolygon), 1, {
       units: "kilometres",
-      densities: {
-        latDen: 1 / 1000,
-        lngDen: 1 / 1000
+      spacings: {
+        latSpacing: 1 / 1000,
+        lngSpacing: 1 / 1000
       },
       mask: goodPolygon
     });
@@ -57,9 +57,9 @@ describe("Commons non densiti: ", () => {
   it("testing with polygon", () => {
     const pointsInterp = pointGrid(bbox(goodPolygon), 1, {
       units: "kilometres",
-      densities: {
-        latDen: 1 / 1000,
-        lngDen: 1 / 1000
+      spacings: {
+        latSpacing: 1 / 1000,
+        lngSpacing: 1 / 1000
       },
       mask: goodPolygon,
       rotation: 30
@@ -67,6 +67,6 @@ describe("Commons non densiti: ", () => {
     expect(pointsInterp.type).toEqual("FeatureCollection");
     expect(pointsInterp.features[0].geometry.type).toEqual("Point");
     expect(pointsInterp.features[0].geometry.coordinates.length).toEqual(2);
-    expect(pointsInterp.features.length).toEqual(206);
+    expect(pointsInterp.features.length).toEqual(192);
   });
 });
