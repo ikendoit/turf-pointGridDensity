@@ -68,7 +68,7 @@ $ npm install turf-pointgriddensity
 ![latlng](https://i.imgur.com/MkwJMX8.jpg)
 
 #### Set rotation, so that we can rotate points.
-![rotation](https://i.imgur.com/qTxx4Ma.jpg)
+![rotation](https://i.imgur.com/6ZWp3ir.jpg)
 
 note: the example is passing a polygon mask.
 
